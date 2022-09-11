@@ -563,7 +563,7 @@
             <div class="announce">
                 <h3>PENGUMUMAN</h3>
                 <p>Python dibuat dan dikembangkan oleh Guido Van Rossum, yaitu seorang programmer yang berasal dari Belanda pada tahun 1990. Pada tahun 1995 Python dikembangkan lagi agar lebih kompatibel oleh Guido Van Rossum</p>
-                <p><a href="" class="tbl-yellow">Baca Selengkapnya</a></a>
+                <p><a href="{{ route('news') }}" class="tbl-yellow">Baca Selengkapnya</a></a>
             </div>
         </section>
         <div class="kolom">
@@ -579,7 +579,7 @@
                     <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
                 </div>
             </div>
-            <p><a href="" class="tbl-red">Lihat Selengkapnya</a></p>
+            <p><a href="{{ route('galeri') }}" class="tbl-red">Lihat Selengkapnya</a></p>
         </div>
         <div class="kolom">
             <h4 class="tirai">TIRAI HMIF</h4>
