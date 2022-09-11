@@ -13,28 +13,28 @@
         padding: 0px;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     body {
         margin: 0px;
         padding: 0px;
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     .wrapper {
         width: 1100px;
         margin: auto;
         position: relative;
     }
-    
+
     .logo {
         float: left;
         margin: auto;
     }
-    
+
     .menu {
         float: left;
     }
-    
+
     nav {
         width: 100%;
         margin: auto;
@@ -47,18 +47,18 @@
         font-style: italic;
         z-index: 1;
     }
-    
+
     nav ul {
         list-style: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
-    
+
     nav ul li {
         float: left;
     }
-    
+
     nav ul li a {
         color: #ffff;
         font-weight: bold;
@@ -66,11 +66,11 @@
         padding: 0px 16px 0px 16px;
         text-decoration: none;
     }
-    
+
     nav ul li a:hover {
         text-decoration: underline;
     }
-    
+
     section {
         margin: auto;
         margin-bottom: 50px;
@@ -79,20 +79,20 @@
         height: 250px;
         padding: 50px;
     }
-    
+
     .kolom {
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: 40px;
     }
-    
+
     .kolom .deskripsi {
         font-size: 40px;
         font-weight: bold;
         color: #125C13;
         font-family: 'comic sans ms';
     }
-    
+
     p {
         font-family: 'comic sans ms';
         width: 100%;
@@ -100,7 +100,7 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    
+
     a.tbl-biru {
         background: #EAE509;
         border-radius: 20px;
@@ -110,7 +110,7 @@
         cursor: pointer;
         font-weight: bold;
     }
-    
+
     a.tbl-yellow {
         background: #EAE509;
         border-radius: 20px;
@@ -120,11 +120,11 @@
         cursor: pointer;
         font-weight: bold;
     }
-    
+
     a.tbl-yellow:hover {
         text-decoration: underline;
     }
-    
+
     a.tbl-red {
         background: #EAE509;
         border-radius: 20px;
@@ -135,11 +135,11 @@
         font-weight: bold;
         margin-left: 430px;
     }
-    
+
     a.tbl-red:hover {
         text-decoration: underline;
     }
-    
+
     .kolom .ilmu {
         margin-top: 12px;
         margin-bottom: 40px;
@@ -148,7 +148,7 @@
         font-weight: bold;
         font-size: 22px;
     }
-    
+
     .announce {
         margin-top: 20px;
         margin-left: 20px;
@@ -156,12 +156,12 @@
         font-family: 'arial narrow';
         font-size: 20px;
     }
-    
+
     .announce h3 {
         margin-left: 110px;
         margin-bottom: 40px;
     }
-    
+
     .kolom .foto {
         font-family: 'arial narrow';
         font-size: 25px;
@@ -172,11 +172,11 @@
         background-color: #125C13;
         color: #ffff;
     }
-    
+
     .foto h4 {
         background: #EAE509;
     }
-    
+
     .foto-content {
         height: 100%;
         width: 100%;
@@ -184,18 +184,18 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .foto-icon {
         position: relative;
         width: 300px;
         height: 300px;
         margin: 20px;
     }
-    
+
     .foto-icon img {
         width: 100%;
     }
-    
+
     .kolom .foto {
         font-family: 'arial narrow';
         font-size: 25px;
@@ -206,11 +206,11 @@
         background-color: #125C13;
         color: #ffff;
     }
-    
+
     .tirai h4 {
         background: #EAE509;
     }
-    
+
     .tirai-content {
         height: 100%;
         width: 100%;
@@ -218,18 +218,18 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .tirai-icon {
         position: relative;
         width: 300px;
         height: 300px;
         margin: 20px;
     }
-    
+
     .tirai-icon img {
         width: 100%;
     }
-    
+
     .kolom .tirai {
         font-family: 'arial narrow';
         font-size: 25px;
@@ -240,13 +240,13 @@
         background-color: #125C13;
         color: #ffff;
     }
-    
+
     .main {
         width: 1200px;
         height: 100px;
         margin: auto;
     }
-    
+
     .dept-content {
         height: 100%;
         width: 100%;
@@ -254,23 +254,23 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .dept-box {
         width: 300px;
         height: 300px;
         margin: 30px;
     }
-    
+
     .dept-box p {
         position: absolute;
         top: 44%;
         width: 100%;
     }
-    
+
     .dept-box img {
         width: 100%;
     }
-    
+
     .dept-box .text1 {
         position: relative;
         width: 20px;
@@ -280,7 +280,7 @@
         font-family: 'arial narrow';
         font-size: 13px;
     }
-    
+
     .kabnt img {
         width: 15%;
         height: 15%;
@@ -288,14 +288,14 @@
         margin-bottom: 30px;
         margin-left: 460px;
     }
-    
+
     .kabnt h2 {
         text-align: center;
         margin-bottom: 30px;
         font-family: "Gill Sans", sans-serif;
         font-size: 30px;
     }
-    
+
     .adika-content {
         height: 100%;
         width: 100%;
@@ -303,25 +303,25 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .adika-box {
         width: 300px;
         height: 300px;
         margin: 30px;
     }
-    
+
     .adika-box img {
         width: 22%;
         height: 22%;
         padding: 10px;
     }
-    
+
     .footer {
         width: 100%;
         height: 400px;
         background-color: #125C13;
     }
-    
+
     .footercontent {
         width: 350px;
         height: 300px;
@@ -329,7 +329,7 @@
         margin-top: 50px;
         margin-left: 230px;
     }
-    
+
     h5 {
         margin-top: 20px;
         padding: 45px;
@@ -337,17 +337,17 @@
         margin-bottom: 5px;
         color: #EAE509;
     }
-    
+
     .footertext p {
         color: #ffff;
         font-size: 12px;
     }
-    
+
     .header {
         width: 100%;
         height: 30px;
     }
-    
+
     .headercontent {
         width: 650px;
         height: 50px;
@@ -355,13 +355,13 @@
         margin-bottom: 30px;
         margin-left: 230px;
     }
-    
+
     .headertext p {
         color: black;
         font-size: 12px;
         font-weight: bold;
     }
-    
+
     .sosmed .button {
         display: inline-block;
         height: 50px;
@@ -375,7 +375,7 @@
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease-out;
     }
-    
+
     .sosmed .button .icon {
         display: inline-block;
         height: 50px;
@@ -386,33 +386,33 @@
         line-height: 50px;
         transition: all 0.3s ease-out;
     }
-    
+
     .sosmed .button:nth-child(1):hover .icon {
         background: #2ecc71;
     }
-    
+
     .sosmed .button:nth-child(2):hover .icon {
         background: #3498db;
     }
-    
+
     .sosmed .button:nth-child(3):hover .icon {
         background: #f1c40f;
     }
-    
+
     .sosmed .button:nth-child(4):hover .icon {
         background: #e67e22;
     }
-    
+
     .sosmed .button .icon {
         font-size: 25px;
         line-height: 50px;
         transition: all 0.3s ease-out;
     }
-    
+
     .sosmed .button:hover .icon {
         color: #fff;
     }
-    
+
     .sosmed .button span {
         font-size: 20px;
         font-weight: 500;
@@ -420,19 +420,19 @@
         margin-left: 10px;
         transition: all 0.3s ease-out;
     }
-    
+
     .sosmed .button:nth-child(1)span {
         background: #2ecc71;
     }
-    
+
     .sosmed .button:nth-child(2)span {
         background: #3498db;
     }
-    
+
     .sosmed .button:nth-child(3)span {
         background: #f1c40f;
     }
-    
+
     .sosmed .button:nth-child(4)span {
         background: #e67e22;
     }
@@ -446,9 +446,9 @@
             <img class="logo" src="https://km.itera.ac.id/wp-content/uploads/elementor/thumbs/Logo-HMIF-pi6qxmsxj1kimiixaslxhtxk6ehdkm7lxn1loddl8w.png" width="85px" height="85px">
             <div class="menu">
                 <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#galeri">GALERI</a></li>
-                    <li><a href="#news">NEWS</a></li>
+                    <li><a href={{ route('index') }}>HOME</a></li>
+                    <li><a href={{ route('galeri') }}>GALERI</a></li>
+                    <li><a href={{ route('news') }}>NEWS</a></li>
                     <li><a href="#contact us">CONTACT US</a></li>
                     <li><a href="" class="tbl-biru">LOGIN</a></li>
                 </ul>

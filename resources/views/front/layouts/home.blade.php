@@ -7,23 +7,23 @@
         body {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-        
+
         .wrapper {
             width: 1100px;
             margin: auto;
             position: relative;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-        
+
         .logo {
             float: left;
             margin: auto;
         }
-        
+
         .menu {
             float: left;
         }
-        
+
         nav {
             width: 100%;
             margin: auto;
@@ -34,18 +34,18 @@
             font-style: italic;
             z-index: 1;
         }
-        
+
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
         }
-        
+
         nav ul li {
             float: left;
         }
-        
+
         nav ul li a {
             color: #ffff;
             font-weight: bold;
@@ -53,11 +53,11 @@
             padding: 0px 16px 0px 16px;
             text-decoration: none;
         }
-        
+
         nav ul li a:hover {
             text-decoration: underline;
         }
-        
+
         .container {
             max-width: 1100px;
             width: 100%;
@@ -66,7 +66,7 @@
             box-sizing: border-box;
             text-align: center;
         }
-        
+
         .hmif {
             float: center;
             background-color: #EAE509;
@@ -75,26 +75,26 @@
             font-weight: bold;
             margin-top: 50px;
         }
-        
+
         .hmif-content p {
             float: left;
             text-align: justify;
             margin-top: 5px;
             margin-bottom: 60px;
         }
-        
+
         .visi-content {
             box-sizing: border-box;
             float: left;
             margin: 20px;
         }
-        
+
         .misi-content {
             box-sizing: border-box;
             float: left;
             margin: 20px;
         }
-        
+
         .visimisi {
             border: solid #EAE509;
             text-align: justify;
@@ -102,11 +102,11 @@
             justify-content: center;
             margin-top: 240px
         }
-        
+
         p {
             padding: 5px;
         }
-        
+
         .asas {
             max-width: 1100px;
             width: 100%;
@@ -121,7 +121,7 @@
             font-weight: bold;
             margin-top: 50px;
         }
-        
+
         .asas-content p {
             max-width: 1100px;
             width: 100%;
@@ -130,13 +130,13 @@
             padding: 5px;
             margin-bottom: 60px;
         }
-        
+
         .footer {
             width: 100%;
             height: 400px;
             background-color: #125C13;
         }
-        
+
         .footercontent {
             width: 350px;
             height: 300px;
@@ -144,7 +144,7 @@
             margin-top: 50px;
             margin-left: 230px;
         }
-        
+
         h5 {
             margin-top: 20px;
             padding: 45px;
@@ -152,12 +152,12 @@
             margin-bottom: 5px;
             color: #EAE509;
         }
-        
+
         .footertext p {
             color: #ffff;
             font-size: 12px;
         }
-        
+
         .sosmed .button {
             display: inline-block;
             height: 50px;
@@ -171,7 +171,7 @@
             box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease-out;
         }
-        
+
         .sosmed .button .icon {
             display: inline-block;
             height: 50px;
@@ -182,33 +182,33 @@
             line-height: 50px;
             transition: all 0.3s ease-out;
         }
-        
+
         .sosmed .button:nth-child(1):hover .icon {
             background: #2ecc71;
         }
-        
+
         .sosmed .button:nth-child(2):hover .icon {
             background: #3498db;
         }
-        
+
         .sosmed .button:nth-child(3):hover .icon {
             background: #f1c40f;
         }
-        
+
         .sosmed .button:nth-child(4):hover .icon {
             background: #e67e22;
         }
-        
+
         .sosmed .button .icon {
             font-size: 25px;
             line-height: 50px;
             transition: all 0.3s ease-out;
         }
-        
+
         .sosmed .button:hover .icon {
             color: #fff;
         }
-        
+
         .sosmed .button span {
             font-size: 20px;
             font-weight: 500;
@@ -216,19 +216,19 @@
             margin-left: 10px;
             transition: all 0.3s ease-out;
         }
-        
+
         .sosmed .button:nth-child(1)span {
             background: #2ecc71;
         }
-        
+
         .sosmed .button:nth-child(2)span {
             background: #3498db;
         }
-        
+
         .sosmed .button:nth-child(3)span {
             background: #f1c40f;
         }
-        
+
         .sosmed .button:nth-child(4)span {
             background: #e67e22;
         }
@@ -241,9 +241,11 @@
             <img class="logo" src="https://km.itera.ac.id/wp-content/uploads/elementor/thumbs/Logo-HMIF-pi6qxmsxj1kimiixaslxhtxk6ehdkm7lxn1loddl8w.png" width="85px" height="85px">
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">BERANDA</a></li>
-                    <li><a href="news.html">NEWS</a></li>
-                    <li><a href="galeri.html">GALERI</a></li>
+                    <li><a href={{ route('index') }}>HOME</a></li>
+                    <li><a href={{ route('galeri') }}>GALERI</a></li>
+                    <li><a href={{ route('news') }}>NEWS</a></li>
+                    <li><a href="#contact us">CONTACT US</a></li>
+                    <li><a href="" class="tbl-biru">LOGIN</a></li>
                 </ul>
             </div>
         </div>

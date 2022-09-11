@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 //Route::get('/', function () {
-//    return view('welcome');
+//    return view('frontend');
 //});
-Route::get('/', [FrontendController::class, 'index']) ->name('dashboard');
+Route::get('/', [DashboardController::class, 'index']) ->name('index');
+Route::get('/galeri', [DashboardController::class, 'galeri']) ->name('galeri');
+Route::get('/news', [DashboardController::class, 'news']) ->name('news');
