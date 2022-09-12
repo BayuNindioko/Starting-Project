@@ -472,7 +472,7 @@
                 <h2 class="deskripsi">HMIF?</h2>
                 <p>HMIF adalah organisasi kemahasiswaan di tingkat program studi informatika yang dibentuk oleh mahasiswa program studi informatika yang berdiri pada tahun 2018 serta melaksanakan kegiatan yang menunjang akademik dan non akademik di lingkup
                     program studi informatika yang bersifat eksekutif, aspiratif, dan advokatif.</p>
-                <p><a href="" class="tbl-yellow">Baca Selengkapnya</a></a>
+                <p><a href={{ route('home') }} class="tbl-yellow">Baca Selengkapnya</a></a>
                 </p>
             </div>
         </section>
@@ -569,30 +569,22 @@
         <div class="kolom">
             <h4 class="foto">GALERI</h4>
             <div class="foto-content">
+                @foreach($galeri as $g)
                 <div class="foto-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
+                    <img src="{{ asset('assets')}}/galeri/{{$g->gambar}}" width="500px" height="300px">
                 </div>
-                <div class="foto-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
-                </div>
-                <div class="foto-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
-                </div>
+                @endforeach
             </div>
             <p><a href="{{ route('galeri') }}" class="tbl-red">Lihat Selengkapnya</a></p>
         </div>
         <div class="kolom">
             <h4 class="tirai">TIRAI HMIF</h4>
             <div class="tirai-content">
+                @foreach($galeri as $g)
                 <div class="tirai-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
+                    <img src="{{ asset('assets')}}/galeri/{{$g->gambar}}" width="500px" height="300px">
                 </div>
-                <div class="tirai-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
-                </div>
-                <div class="tirai-icon">
-                    <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300">
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

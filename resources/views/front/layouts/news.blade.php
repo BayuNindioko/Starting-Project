@@ -309,40 +309,15 @@
             </div>
         </div>
         <div class="isi">
+            @foreach($news as $n)
             <div class="isiposting">
-                <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300" class="gambardepan ">
-                <h2>Sejarah Bahasa Python</h2>
+                <img src="{{ asset('assets')}}/galeri/{{$n->gambar}}" class="gambardepan ">
+                <h2>{{ $n->judul }}</h2>
                 <h3>Awal Mula Bahasa Pemrograman Python</h3>
-                Python adalah bahasa pemrograman tujuan umum yang ditafsirkan, tingkat tinggi. Dibuat oleh Guido van Rossum dan pertama kali dirilis pada tahun 1991, filosofi desain Python menekankan keterbacaan kode dengan penggunaan spasi putih yang signifikan. Konstruksi
-                bahasanya dan pendekatan berorientasi objek bertujuan untuk membantu pemrogram menulis kode yang jelas dan logis untuk proyek skala kecil dan besar. Python diketik secara dinamis dan pengumpulan sampah. Ini mendukung beberapa paradigma
-                pemrograman, termasuk pemrograman terstruktur (terutama, prosedural), berorientasi objek, dan fungsional. Python sering dideskripsikan sebagai bahasa "termasuk baterai" karena perpustakaan standarnya yang komprehensif. Python dibuat pada
-                akhir 1980-an sebagai penerus bahasa ABC. Python 2.0, dirilis pada tahun 2000, memperkenalkan fitur-fitur seperti pemahaman daftar dan sistem pengumpulan sampah dengan penghitungan referensi. Python 3.0, dirilis pada tahun 2008, adalah
-                revisi utama dari bahasa yang tidak sepenuhnya kompatibel dengan versi sebelumnya, dan banyak kode Python 2 yang tidak berjalan tanpa modifikasi pada Python 3
+                {{ $n->isi }}
                 <br>
             </div>
-            <div class="isiposting ">
-                <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300 " class="gambardepan">
-                <h2>Mengenal Artificial Intelligence</h2>
-                <h3>Apa itu Artificial Intelligence ?</h3>
-                Artificial Intelligence (AI) adalah bidang ilmu komputer yang dikhususkan untuk memecahkan masalah kognitif yang umumnya terkait dengan kecerdasan manusia, seperti pembelajaran, pemecahan masalah, dan pengenalan pola. Kecerdasan Buatan, sering disingkat
-                sebagai "AI", mungkin berkonotasi dengan robotika atau adegan futuristik, Kecerdasan Buatan (AI) mengungguli robot fiksi ilmiah, ke dalam non-fiksi ilmu komputer canggih modern. Profesor Pedro Domingos, seorang peneliti terkemuka di bidang
-                ini, menggambarkan "lima suku" machine learning, yang terdiri dari simbolis, yang berasal dari logika dan filsafat; koneksionis, yang berasal dari ilmu saraf; evolusioner, berkaitan dengan biologi evolusioner; Bayesian, berhubungan dengan
-                statistik dan probabilitas; dan analogis yang berasal dari psikologi. Baru-baru ini, kemajuan dalam efisiensi komputasi statistik telah membuat Bayesian berhasil memajukan bidang di sejumlah area, yang disebut "machine learning". Demikian
-                pula, kemajuan dalam komputasi jaringan telah menyebabkan koneksionis memperluas ke subbidang yang disebut "deep learning". Machine learning (ML) dan deep learning (DL) merupakan bidang ilmu komputer yang berasal dari disiplin Kecerdasan
-                Buatan
-                <br>
-            </div>
-            <div class="isiposting">
-                <img src="https://lh3.googleusercontent.com/hPOX38qh30xftFwl0dU2-eqsqmyeNyOWV4v0oZ2bUyj4AvhfuB0EGyH0ifF0OMM99ks=w300" class="gambardepan ">
-                <h2>Rekayasa Perangkat Lunak</h2>
-                <h3>Apa itu Rekayasa Perangkat Lunak ?</h3>
-                Rekayasa Perangkat Lunak atau biasa disingkat dengan RPL adalah salah satu bidang profesi dan juga mata pelajaran yang mempelajari tentang pengembangan perangkat-perangkat lunak termasuk dalam hal pembuatannya, pemeliharaan hingga manajemen organisasi
-                dan manajemen kualitasnya. Bisa dikatakan RPL ini merupakan sebuah perubahan yang terjadi pada perangkat lunak guna melakukan pengembangan, pemeliharaan, dan pembangunan kembali dengan menerapkan prinsip rekayasa sehingga memperoleh perangkat
-                lunak yang bisa bekerja secara lebih efisien dan efektif pada user nantinya. Perangkat lunak sendiri merupakan sekumpulan data yang tersimpan dan terprogram oleh sistem komputer, istilah ini cukup umum dengan sebutan software. Merupakan
-                elemen dari komputer, software menjadi elemen yang tidak tampak secara fisik. Ia berisi instruksi-instruksi yang diprogram dan bisa berada di perangkat keras manapun, software pada mulanya adalah sebuah kode mesin atau machine code yang
-                dibuat oleh seorang ilmuwan. Berisi angka-angka biner yang dapat dikenali oleh komputer, terkhusus prosesor. Software bekerja dengan membuat instruksi tertentu dalam melakukan perhitungan, logika, input-output, dan aritmatika pada prosesor.
-                <br>
-            </div>
+            @endforeach
         </div>
 
     </div>
