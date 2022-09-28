@@ -477,44 +477,44 @@
             </div>
         </section>
         <div class="kabnt">
-            <img src="image/logo.png" alt="">
+            <img src="{{ asset('assets') }}/image/logo.png" class="" alt="" />" alt="">
             <h2>KABINET ADIKACITA</h2>
         </div>
         <div class="adika">
             <div class="adika-content">
                 <div class="adika-box">
-                    <img src="image/logo1.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo1.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>Bentuk burung melambangkan sebuah harapan yang dapat terbang tinggi, seperti arti nama dari adikacita yang memiliki arti harapan terbaik. Sehingga di harapkan badan pengurus tahun ini dapat membawa seluruh harapan dan nama HMIF
                             terbang tinggi</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="image/logo2.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo2.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>Sayap Pertama Berwarna Biru : Melambangkan Teknik Informatika</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="image/logo3.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo3.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>Sayap Kedua Berwarna Kuning : Melambangkan Teknik Elektro sebagai saudara</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="image/logo4.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo4.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>Badan Burung Berwarna Hijau : Melambangkan HMIF sebagai rumah pertama</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="image/logo5.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo5.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>4 Sayap Burung : Melambangkan badan pengurus ke 4</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="image/logo6.png" alt="">
+                    <img src="{{ asset('assets') }}/image/logo6.png" class="" alt="" />" alt="">
                     <div class="text1">
                         <p>Lingkaran Kecil di 4 Titik dengan Garis Menyambung : Melambangkan Kolaborasi</p>
                     </div>
