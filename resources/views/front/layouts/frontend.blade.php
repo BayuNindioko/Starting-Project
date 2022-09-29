@@ -449,7 +449,7 @@
                     <li><a href={{ route('index') }}>HOME</a></li>
                     <li><a href={{ route('galeri') }}>GALERI</a></li>
                     <li><a href={{ route('news') }}>NEWS</a></li>
-                    <li><a href="#contact us">CONTACT US</a></li>
+                    <li><a href="#foot">CONTACT US</a></li>
                     <li><a href="" class="tbl-biru">LOGIN</a></li>
                 </ul>
             </div>
@@ -477,44 +477,44 @@
             </div>
         </section>
         <div class="kabnt">
-            <img src="{{ asset('assets') }}/image/logo.png" class="" alt="" />" alt="">
+            <img src="{{ asset('assets') }}/image/logo.png" class="" alt=" />">
             <h2>KABINET ADIKACITA</h2>
         </div>
         <div class="adika">
             <div class="adika-content">
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo1.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo1.png" class="" alt=" />">
                     <div class="text1">
                         <p>Bentuk burung melambangkan sebuah harapan yang dapat terbang tinggi, seperti arti nama dari adikacita yang memiliki arti harapan terbaik. Sehingga di harapkan badan pengurus tahun ini dapat membawa seluruh harapan dan nama HMIF
                             terbang tinggi</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo2.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo2.png" class="" alt=" />">
                     <div class="text1">
                         <p>Sayap Pertama Berwarna Biru : Melambangkan Teknik Informatika</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo3.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo3.png" class="" alt=" />">
                     <div class="text1">
                         <p>Sayap Kedua Berwarna Kuning : Melambangkan Teknik Elektro sebagai saudara</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo4.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo4.png" class="" alt=" />" >
                     <div class="text1">
                         <p>Badan Burung Berwarna Hijau : Melambangkan HMIF sebagai rumah pertama</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo5.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo5.png" class="" alt=" />" >
                     <div class="text1">
                         <p>4 Sayap Burung : Melambangkan badan pengurus ke 4</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo6.png" class="" alt="" />" alt="">
+                    <img src="{{ asset('assets') }}/image/logo6.png" class="" alt=" />" >
                     <div class="text1">
                         <p>Lingkaran Kecil di 4 Titik dengan Garis Menyambung : Melambangkan Kolaborasi</p>
                     </div>
@@ -558,7 +558,9 @@
         <section id="news">
             <div class="kolom">
                 <p class="ilmu">ILMU HARI INI</p>
-                <img src="https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-gray-solid-color-simple-background-image_557028.jpg">
+                @foreach($pengumuman as $g)
+                <img src="{{ asset('assets')}}/galeri/{{$g->gambar}}" width="300px">
+                @endforeach
             </div>
             <div class="announce">
                 <h3>PENGUMUMAN</h3>
@@ -599,7 +601,7 @@
             <p>Email: kabinetadikacita@gmail.com</p>
             <p>Departemen Keprofesian</p>
         </div>
-        <div class="sosmed">
+        <div class="sosmed" id="foot">
             <div class="button">
                 <div class="icon">
                     <i class="fab fa-instagram"></i>

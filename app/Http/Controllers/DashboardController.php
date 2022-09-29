@@ -10,7 +10,8 @@ class DashboardController extends Controller
 {
     public function index(){
         $galeri = Galeri::paginate(3);
-        return view('front.layouts.frontend', compact('galeri'));
+        $pengumuman = Galeri::paginate(1);
+        return view('front.layouts.frontend', compact('galeri','pengumuman'));
     }
 
     public function galeri(){
