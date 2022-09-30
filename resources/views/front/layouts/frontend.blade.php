@@ -443,7 +443,7 @@
 <body>
     <nav>
         <div class="wrapper">
-            <img class="logo" src="https://km.itera.ac.id/wp-content/uploads/elementor/thumbs/Logo-HMIF-pi6qxmsxj1kimiixaslxhtxk6ehdkm7lxn1loddl8w.png" width="85px" height="85px">
+            <img src="{{ asset('assets') }}/image/hmif.png" class="" alt="" width="85px" height="85px">
             <div class="menu">
                 <ul>
                     <li><a href={{ route('index') }}>HOME</a></li>
@@ -476,7 +476,7 @@
     <div class="wrapper">
         <!-- HMIF -->
         <section id="home">
-            <img src="https://km.itera.ac.id/wp-content/uploads/elementor/thumbs/Logo-HMIF-pi6qxmsxj1kimiixaslxhtxk6ehdkm7lxn1loddl8w.png">
+            <img src="{{ asset('assets') }}/image/hmif.png" class="" alt="">
             <div class="kolom">
                 <h2 class="deskripsi">HMIF?</h2>
                 <p>HMIF adalah organisasi kemahasiswaan di tingkat program studi informatika yang dibentuk oleh mahasiswa program studi informatika yang berdiri pada tahun 2018 serta melaksanakan kegiatan yang menunjang akademik dan non akademik di lingkup
