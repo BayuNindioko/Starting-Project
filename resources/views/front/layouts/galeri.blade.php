@@ -202,7 +202,16 @@
                     <li><a href={{ route('galeri') }}>GALERI</a></li>
                     <li><a href={{ route('news') }}>NEWS</a></li>
                     <li><a href="#contact us">CONTACT US</a></li>
-                    <li><a href="" class="tbl-biru">LOGIN</a></li>
+                    @auth
+                        <li>
+                            <form action="/logout" method="post">
+                                @csrf
+                                <a  class="tbl-biru"><button type="submit">Logout</button></a>
+                            </form>
+                        </li>
+                        @else
+                        <li class="nav__item"><a class="tbl-biru" href="/login">Login</a></li>
+                        @endauth
                 </ul>
             </div>
         </div>

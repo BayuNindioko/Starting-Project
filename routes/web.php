@@ -1,8 +1,10 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +20,13 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/', function () {
 //    return view('frontend');
 //});
-Route::get('/', [DashboardController::class, 'index']) ->name('index');
-Route::get('/galeri', [DashboardController::class, 'galeri']) ->name('galeri');
-Route::get('/home', [DashboardController::class, 'home']) ->name('home');
-Route::get('/news', [DashboardController::class, 'news']) ->name('news');
+Route::get('/', [DashboardController::class, 'index'])->name('index');
+Route::get('/galeri', [DashboardController::class, 'galeri'])->name('galeri');
+Route::get('/home', [DashboardController::class, 'home'])->name('home');
+Route::get('/news', [DashboardController::class, 'news'])->name('news');
+Route::get('/dashboard', [AdminController::class, 'index'])->name('adminIndex');
+
+//Login
+Route::get('/login', [LoginController::class, 'index']);
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);

@@ -79,17 +79,17 @@
             margin-top: -20px;
         }
         
-        .container form .data {
+        .container form .input {
             height: 45px;
             width: 100%;
             margin: 40px 0;
         }
         
-        form .data label {
+        form .input label {
             font-size: 18px;
         }
         
-        form .data input {
+        form .input input {
             height: 100%;
             width: 100%;
             padding-left: 10px;
@@ -97,7 +97,7 @@
             border: 1px solid silver;
         }
         
-        form .data input:focus {
+        form .input input:focus {
             border-color: #3498db;
             border-bottom-width: 2px;
         }
@@ -174,14 +174,20 @@
             <div class="text">
                 Login CMS ADIKACITA
             </div>
-            <form action="#">
-                <div class="data">
-                    <label>Email or Phone</label>
-                    <input type="text" required>
+            <form action="/login" method="post">
+                @csrf
+                <div class="input">
+                    <label for="email">Email or Phone</label>
+                    <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" autofocus required value="{{ old('email') }}">
+                            @error('email')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                            @enderror
                 </div>
-                <div class="data">
-                    <label>Password</label>
-                    <input type="password" required>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
                 </div>
                 <div class="forgot-pass">
                     <a href="#">Forgot Password?</a>
