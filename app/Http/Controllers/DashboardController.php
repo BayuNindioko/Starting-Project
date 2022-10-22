@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Galeri;
 use App\Models\News;
+use App\Models\Post;
+use App\Models\Category;
+use App\Models\User;
 
 class DashboardController extends Controller
 {
@@ -28,7 +31,20 @@ class DashboardController extends Controller
 
     public function news()
     {
-        $news = News::all();
-        return view('front.layouts.news', compact('news'));
+        $title = '';
+        if (request('category')) {
+            $category = Category::firstWhere('slug', request('category'));
+            $title = ' in ' . $category->name;
+        }
+
+        if (request('author')) {
+            $author = User::firstWhere('username', request('author'));
+            $title = ' by ' . $author->name;
+        }
+
+        return view('front.layouts.news', [
+            'news' => News::all(),
+            'posts' => Post::latest()->paginate(7)->withQueryString()
+        ]);
     }
 }
