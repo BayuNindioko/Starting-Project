@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="{{ asset('plugins') }}/fontawesome-free/css/all.min.css">
     <title>Home HMIF</title>
     <style>
         body {
@@ -313,7 +314,7 @@
         <div class="sosmed">
             <div class="button">
                 <div class="icon">
-                    <i class="fab fa-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </div>
                 <span>Instagram</span>
             </div>
