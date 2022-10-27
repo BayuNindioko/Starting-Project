@@ -324,7 +324,7 @@
             <div class="isiposting">
                 {{-- <img src="{{ asset('assets')}}/galeri/{{$n->gambar}}" class="gambardepan "> --}}
                 {{-- <h2>{{ $n->judul }}</h2> --}}
-                <h3>Awal Mula Bahasa Pemrograman Python</h3>
+                {{-- <h3>Awal Mula Bahasa Pemrograman Python</h3> --}}
                 {{-- {{ $n->isi }} --}}
                 <br>
             </div>
