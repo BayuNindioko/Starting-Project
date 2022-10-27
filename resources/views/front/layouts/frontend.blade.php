@@ -6,436 +6,437 @@
     <meta name="viewport" content="width=device-width" , intial-scale="1.0">
     <title>Starting Project</title>
     <style type="text/css">
-            @import url(https://fonts.googleapis.com/css?family-Poppins:400,500,600,700);
-    * {
-        text-decoration: none;
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Poppins', sans-serif;
-    }
+        @import url(https://fonts.googleapis.com/css?family-Poppins:400,500,600,700);
 
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Open Sans', sans-serif;
-    }
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
 
-    .wrapper {
-        width: 1100px;
-        margin: auto;
-        position: relative;
-    }
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
 
-    .logo {
-        float: left;
-        margin: auto;
-    }
+        .wrapper {
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        }
 
-    .menu {
-        float: left;
-    }
+        .logo {
+            float: left;
+            margin: auto;
+        }
 
-    nav {
-        width: 100%;
-        margin: auto;
-        display: flex;
-        line-height: 80px;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-        background: #125C13;
-        font-style: italic;
-        z-index: 1;
-    }
+        .menu {
+            float: left;
+        }
 
-    nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 80px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            background: #125C13;
+            font-style: italic;
+            z-index: 1;
+        }
 
-    nav ul li {
-        float: left;
-    }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-    nav ul li a {
-        color: #ffff;
-        font-weight: bold;
-        text-align: center;
-        padding: 0px 16px 0px 16px;
-        text-decoration: none;
-    }
+        nav ul li {
+            float: left;
+        }
 
-    nav ul li a:hover {
-        text-decoration: underline;
-    }
+        nav ul li a {
+            color: #ffff;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
 
-    section {
-        margin: auto;
-        margin-bottom: 50px;
-        display: flex;
-        width: 850px;
-        height: 250px;
-        padding: 50px;
-    }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
 
-    .kolom {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
+        section {
+            margin: auto;
+            margin-bottom: 50px;
+            display: flex;
+            width: 850px;
+            height: 250px;
+            padding: 50px;
+        }
 
-    .kolom .deskripsi {
-        font-size: 40px;
-        font-weight: bold;
-        color: #125C13;
-        font-family: 'comic sans ms';
-    }
+        .kolom {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+        }
 
-    p {
-        font-family: 'comic sans ms';
-        width: 100%;
-        font-size: 17px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+        .kolom .deskripsi {
+            font-size: 40px;
+            font-weight: bold;
+            color: #125C13;
+            font-family: 'comic sans ms';
+        }
 
-    a.tbl-biru {
-        background: #EAE509;
-        border-radius: 20px;
-        margin-top: 20px;
-        padding: 10px 20px 10px 20px;
-        color: #125C13;
-        cursor: pointer;
-        font-weight: bold;
-    }
+        p {
+            font-family: 'comic sans ms';
+            width: 100%;
+            font-size: 17px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
 
-    a.tbl-yellow {
-        background: #EAE509;
-        border-radius: 20px;
-        margin-top: 20px;
-        padding: 10px 20px 10px 20px;
-        color: #125C13;
-        cursor: pointer;
-        font-weight: bold;
-    }
+        a.tbl-biru {
+            background: #EAE509;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            color: #125C13;
+            cursor: pointer;
+            font-weight: bold;
+        }
 
-    a.tbl-yellow:hover {
-        text-decoration: underline;
-    }
+        a.tbl-yellow {
+            background: #EAE509;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            color: #125C13;
+            cursor: pointer;
+            font-weight: bold;
+        }
 
-    a.tbl-red {
-        background: #EAE509;
-        border-radius: 20px;
-        margin-top: 20px;
-        padding: 10px 20px 10px 20px;
-        color: #125C13;
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 430px;
-    }
+        a.tbl-yellow:hover {
+            text-decoration: underline;
+        }
 
-    a.tbl-red:hover {
-        text-decoration: underline;
-    }
+        a.tbl-red {
+            background: #EAE509;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            color: #125C13;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 430px;
+        }
 
-    .kolom .ilmu {
-        margin-top: 12px;
-        margin-bottom: 40px;
-        margin-left: 110px;
-        font-family: 'arial narrow';
-        font-weight: bold;
-        font-size: 22px;
-    }
+        a.tbl-red:hover {
+            text-decoration: underline;
+        }
 
-    .announce {
-        margin-top: 20px;
-        margin-left: 20px;
-        padding: 20px;
-        font-family: 'arial narrow';
-        font-size: 20px;
-    }
+        .kolom .ilmu {
+            margin-top: 12px;
+            margin-bottom: 40px;
+            margin-left: 110px;
+            font-family: 'arial narrow';
+            font-weight: bold;
+            font-size: 22px;
+        }
 
-    .announce h3 {
-        margin-left: 110px;
-        margin-bottom: 40px;
-    }
+        .announce {
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 20px;
+            font-family: 'arial narrow';
+            font-size: 20px;
+        }
 
-    .kolom .foto {
-        font-family: 'arial narrow';
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 200px;
-        margin-bottom: 20px;
-        background-color: #125C13;
-        color: #ffff;
-    }
+        .announce h3 {
+            margin-left: 110px;
+            margin-bottom: 40px;
+        }
 
-    .foto h4 {
-        background: #EAE509;
-    }
+        .kolom .foto {
+            font-family: 'arial narrow';
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 20px;
+            background-color: #125C13;
+            color: #ffff;
+        }
 
-    .foto-content {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .foto h4 {
+            background: #EAE509;
+        }
 
-    .foto-icon {
-        position: relative;
-        width: 300px;
-        height: 300px;
-        margin: 20px;
-    }
+        .foto-content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .foto-icon img {
-        width: 100%;
-    }
+        .foto-icon {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+        }
 
-    .kolom .foto {
-        font-family: 'arial narrow';
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 200px;
-        margin-bottom: 20px;
-        background-color: #125C13;
-        color: #ffff;
-    }
+        .foto-icon img {
+            width: 100%;
+        }
 
-    .tirai h4 {
-        background: #EAE509;
-    }
+        .kolom .foto {
+            font-family: 'arial narrow';
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 20px;
+            background-color: #125C13;
+            color: #ffff;
+        }
 
-    .tirai-content {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .tirai h4 {
+            background: #EAE509;
+        }
 
-    .tirai-icon {
-        position: relative;
-        width: 300px;
-        height: 300px;
-        margin: 20px;
-    }
+        .tirai-content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .tirai-icon img {
-        width: 100%;
-    }
+        .tirai-icon {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+        }
 
-    .kolom .tirai {
-        font-family: 'arial narrow';
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 150px;
-        margin-bottom: 20px;
-        background-color: #125C13;
-        color: #ffff;
-    }
+        .tirai-icon img {
+            width: 100%;
+        }
 
-    .main {
-        width: 1200px;
-        height: 100px;
-        margin: auto;
-    }
+        .kolom .tirai {
+            font-family: 'arial narrow';
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 20px;
+            background-color: #125C13;
+            color: #ffff;
+        }
 
-    .dept-content {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .main {
+            width: 1200px;
+            height: 100px;
+            margin: auto;
+        }
 
-    .dept-box {
-        width: 300px;
-        height: 300px;
-        margin: 30px;
-    }
+        .dept-content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .dept-box p {
-        position: absolute;
-        top: 44%;
-        width: 100%;
-    }
+        .dept-box {
+            width: 300px;
+            height: 300px;
+            margin: 30px;
+        }
 
-    .dept-box img {
-        width: 100%;
-    }
+        .dept-box p {
+            position: absolute;
+            top: 44%;
+            width: 100%;
+        }
 
-    .dept-box .text1 {
-        position: relative;
-        width: 20px;
-        bottom: 285px;
-        left: 20px;
-        color: #EAE509;
-        font-family: 'arial narrow';
-        font-size: 13px;
-    }
+        .dept-box img {
+            width: 100%;
+        }
 
-    .kabnt img {
-        width: 15%;
-        height: 15%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 460px;
-    }
+        .dept-box .text1 {
+            position: relative;
+            width: 20px;
+            bottom: 285px;
+            left: 20px;
+            color: #EAE509;
+            font-family: 'arial narrow';
+            font-size: 13px;
+        }
 
-    .kabnt h2 {
-        text-align: center;
-        margin-bottom: 30px;
-        font-family: "Gill Sans", sans-serif;
-        font-size: 30px;
-    }
+        .kabnt img {
+            width: 15%;
+            height: 15%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 460px;
+        }
 
-    .adika-content {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .kabnt h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: "Gill Sans", sans-serif;
+            font-size: 30px;
+        }
 
-    .adika-box {
-        width: 300px;
-        height: 300px;
-        margin: 30px;
-    }
+        .adika-content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .adika-box img {
-        width: 22%;
-        height: 22%;
-        padding: 10px;
-    }
+        .adika-box {
+            width: 300px;
+            height: 300px;
+            margin: 30px;
+        }
 
-    .footer {
-        width: 100%;
-        height: 400px;
-        background-color: #125C13;
-    }
+        .adika-box img {
+            width: 22%;
+            height: 22%;
+            padding: 10px;
+        }
 
-    .footercontent {
-        width: 350px;
-        height: 300px;
-        float: left;
-        margin-top: 50px;
-        margin-left: 230px;
-    }
+        .footer {
+            width: 100%;
+            height: 400px;
+            background-color: #125C13;
+        }
 
-    h5 {
-        margin-top: 20px;
-        padding: 45px;
-        font-size: 35px;
-        margin-bottom: 5px;
-        color: #EAE509;
-    }
+        .footercontent {
+            width: 350px;
+            height: 300px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 230px;
+        }
 
-    .footertext p {
-        color: #ffff;
-        font-size: 12px;
-    }
+        h5 {
+            margin-top: 20px;
+            padding: 45px;
+            font-size: 35px;
+            margin-bottom: 5px;
+            color: #EAE509;
+        }
 
-    .header {
-        width: 100%;
-        height: 30px;
-    }
+        .footertext p {
+            color: #ffff;
+            font-size: 12px;
+        }
 
-    .headercontent {
-        width: 650px;
-        height: 50px;
-        float: left;
-        margin-bottom: 30px;
-        margin-left: 230px;
-    }
+        .header {
+            width: 100%;
+            height: 30px;
+        }
 
-    .headertext p {
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-    }
+        .headercontent {
+            width: 650px;
+            height: 50px;
+            float: left;
+            margin-bottom: 30px;
+            margin-left: 230px;
+        }
 
-    .sosmed .button {
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        float: left;
-        margin: 0 5px;
-        overflow: hidden;
-        background: #fff;
-        border-radius: 50px;
-        cursor: pointer;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-out;
-    }
+        .headertext p {
+            color: black;
+            font-size: 12px;
+            font-weight: bold;
+        }
 
-    .sosmed .button .icon {
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        text-align: center;
-        border-radius: 50px;
-        box-sizing: border-box;
-        line-height: 50px;
-        transition: all 0.3s ease-out;
-    }
+        .sosmed .button {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            float: left;
+            margin: 0 5px;
+            overflow: hidden;
+            background: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-out;
+        }
 
-    .sosmed .button:nth-child(1):hover .icon {
-        background: #2ecc71;
-    }
+        .sosmed .button .icon {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            border-radius: 50px;
+            box-sizing: border-box;
+            line-height: 50px;
+            transition: all 0.3s ease-out;
+        }
 
-    .sosmed .button:nth-child(2):hover .icon {
-        background: #3498db;
-    }
+        .sosmed .button:nth-child(1):hover .icon {
+            background: #2ecc71;
+        }
 
-    .sosmed .button:nth-child(3):hover .icon {
-        background: #f1c40f;
-    }
+        .sosmed .button:nth-child(2):hover .icon {
+            background: #3498db;
+        }
 
-    .sosmed .button:nth-child(4):hover .icon {
-        background: #e67e22;
-    }
+        .sosmed .button:nth-child(3):hover .icon {
+            background: #f1c40f;
+        }
 
-    .sosmed .button .icon {
-        font-size: 25px;
-        line-height: 50px;
-        transition: all 0.3s ease-out;
-    }
+        .sosmed .button:nth-child(4):hover .icon {
+            background: #e67e22;
+        }
 
-    .sosmed .button:hover .icon {
-        color: #fff;
-    }
+        .sosmed .button .icon {
+            font-size: 25px;
+            line-height: 50px;
+            transition: all 0.3s ease-out;
+        }
 
-    .sosmed .button span {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 50px;
-        margin-left: 10px;
-        transition: all 0.3s ease-out;
-    }
+        .sosmed .button:hover .icon {
+            color: #fff;
+        }
 
-    .sosmed .button:nth-child(1)span {
-        background: #2ecc71;
-    }
+        .sosmed .button span {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 50px;
+            margin-left: 10px;
+            transition: all 0.3s ease-out;
+        }
 
-    .sosmed .button:nth-child(2)span {
-        background: #3498db;
-    }
+        .sosmed .button:nth-child(1)span {
+            background: #2ecc71;
+        }
 
-    .sosmed .button:nth-child(3)span {
-        background: #f1c40f;
-    }
+        .sosmed .button:nth-child(2)span {
+            background: #3498db;
+        }
 
-    .sosmed .button:nth-child(4)span {
-        background: #e67e22;
-    }
+        .sosmed .button:nth-child(3)span {
+            background: #f1c40f;
+        }
+
+        .sosmed .button:nth-child(4)span {
+            background: #e67e22;
+        }
     </style>
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -443,23 +444,24 @@
 <body>
     <nav>
         <div class="wrapper">
-            <img src="{{ asset('assets') }}/image/hmif.png" class="" alt="" width="85px" height="85px">
+
             <div class="menu">
                 <ul>
+                    <li><img src="{{ asset('assets') }}/image/hmif.png" class="" alt="" width="85px" height="85px"></li>
                     <li><a href={{ route('index') }}>HOME</a></li>
                     <li><a href={{ route('galeri') }}>GALERI</a></li>
                     <li><a href={{ route('news') }}>NEWS</a></li>
                     <li><a href="#foot">CONTACT US</a></li>
                     @auth
-                        <li>
-                            <form action="/logout" method="post">
-                                @csrf
-                                <a  class="tbl-biru"><button type="submit">Logout</button></a>
-                            </form>
-                        </li>
-                        @else
-                        <li class="nav__item"><a class="tbl-biru" href="/login">Login</a></li>
-                        @endauth
+                    <li>
+                        <form action="/logout" method="post">
+                            @csrf
+                            <a class="tbl-biru"><button type="submit">Logout</button></a>
+                        </form>
+                    </li>
+                    @else
+                    <li class="nav__item"><a class="tbl-biru" href="/login">Login</a></li>
+                    @endauth
                 </ul>
             </div>
         </div>
@@ -511,19 +513,19 @@
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo4.png" class="" alt=" />" >
+                    <img src="{{ asset('assets') }}/image/logo4.png" class="" alt=" />">
                     <div class="text1">
                         <p>Badan Burung Berwarna Hijau : Melambangkan HMIF sebagai rumah pertama</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo5.png" class="" alt=" />" >
+                    <img src="{{ asset('assets') }}/image/logo5.png" class="" alt=" />">
                     <div class="text1">
                         <p>4 Sayap Burung : Melambangkan badan pengurus ke 4</p>
                     </div>
                 </div>
                 <div class="adika-box">
-                    <img src="{{ asset('assets') }}/image/logo6.png" class="" alt=" />" >
+                    <img src="{{ asset('assets') }}/image/logo6.png" class="" alt=" />">
                     <div class="text1">
                         <p>Lingkaran Kecil di 4 Titik dengan Garis Menyambung : Melambangkan Kolaborasi</p>
                     </div>
